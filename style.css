@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header ----------------------------------------------------------- */
+
+.header_wrapper {
+    background-color: #242424;
+    height: 500px;
+    width: 100%;
+}
+
+.header {
+    color: rgb(241, 231, 215);
+    padding-top: 150px;
+    width: 800px;
+    margin: 0 auto;    /* нужно сделать класс по центру с шириной*/
+}
+
+.header h1, .header p {
+    text-align: center;
+}
+
+.header h1 {
+    padding-bottom: 10px;
+}
+
+.header p {
+    padding-bottom: 20px;
+}
+
+.header .button {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    background-color: #585858;
+    color: rgb(241, 231, 215);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 0px 15px;
+}
+
+.button:hover{
+    background-color: #f1f0e2;
+    color: black;
+}
+
+
+
+
+/* top sidebar ------------------------------------------- */
+
+
+.sidebar_wrapper {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(230, 230, 220);
+}
+
+
+.sidebar_top .block{
+    display: inline-block;
+    width: 49%;
+    height: 75px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* main -------------------------------------------------------------*/
+
+.main_wrapper {
+    height: 350px;
+    background-color: #242424;
+    width: 100%;
+}
+
+.main {
+    width: 800px;
+    margin: 0 auto;    /* нужно сделать класс по центру с шириной*/
+    background-color: rgb(173, 171, 171);
+    padding-top: 30px;
+}
+
+
+.main img{
+    width: 244px;
+}
+
+.main h3{
+    padding: 25px 0px;
+}
+
+.main .block{
+    display: inline-block;
+    box-sizing: border-box;
+    height: inherit;
+    width: 33%;
+    padding-right: 20px;
+    text-align: center;
+    padding-bottom: 40px;    /* непонятно как сделать без подсчета*/
+}
+
+.main .block:nth-child(3){
+    padding-right: 0px; /* все равно есть полоса по правой стороне*/
+}
+
+/* bottom sidebar --------------------------------------- */
+
+
+/* top bottom sidebars similars*/
+
+.sidebar_bottom h2, .sidebar_top h2{
+    padding-bottom: 20px;
+}
+
+.sidebar_top, .sidebar_bottom {
+    width: 800px;
+    margin: 0 auto;    /* нужно сделать класс по центру с шириной*/
+    color:#585858;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* footer ------------------------------------------------------- */
+
+.footer .block {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 49%;
+    height: 175px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer h2{
+    padding-bottom: 20px;
+}
+
+.footer .block:nth-child(1){
+    background-color: rgb(48, 130, 238);
+    color: white;   
+}
+
+.footer .block:nth-child(2){
+    background-color: #585858;
+}
+
+/* footer footer ------------------------------- */
+
+.footer_footer {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 35px;
+}
+
+.footer_footer a{
+    text-decoration: none;
+    color: rgb(62, 62, 243);
+}

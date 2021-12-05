@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html-страница в соответствия с примером</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header_wrapper">
+        <header class="header center">
+            <h1>Bicycles</h1>
+            <p>
+                Did you know that more than 100 million bicycles are manufactured each year? And that there are over 1 billion bicycles that are currently being used and ridden all around the world? 
+            </p>
+            <button class="button">Read More</button>
+            <script>
+                let button = document.querySelector(".button");
+
+                button.addEventListener('click', function(){
+                    window.scrollTo(0, 700);
+                })
+            </script>
+        </header>
+    </div>
+
+    <div class="sidebar_wrapper">
+        <aside class="sidebar_top center">
+            <h2>
+                But did you ever wonder how bicycles really came into existence?
+            </h2>
+            <p class="block">
+                Bicycles have quite a varied history that goes back about more than 600 years, during which the bicycle was extremely different than the one you know of today. 
+            </p>
+            <p class="block">
+                They have significantly evolved over time with major innovations that dramatically transformed all of its form and features.
+            </p>
+         </aside>
+    </div>
+    
+    <div class="main_wrapper">
+        <main class="main center">
+            <div class="block">
+                <img src="./images/road_bike.jpg" alt="road bike" width="250px">
+                <h3>
+                    Road bike
+                </h3>
+                <p>
+                    They are designed to be ridden fast on smooth pavement. most people find them uncomfortable and unstable on unpaved trails.
+                </p>
+            </div>
+
+            <div class="block">
+                <img src="./images/advanture_bike.jpg" alt="advanture bike" width="250px">
+                <h3>
+                    Advanture bike
+                </h3>
+                <p>
+                    They are sometimes called all-road bikes, any-road bikes, or gravel bikes, and are the most versatile sub-category of road bike.
+                </p>
+            </div>
+
+            <div class="block">
+                <img src="./images/mountain_bike.jpg" alt="Mountain bike" width="250px">
+                <h3>
+                    Mountain bike
+                </h3>
+                <p>
+                    They are design for riding rough off-road trails. They have flat or upright handlebars, and a very low gear range for pedaling up steep trails.
+                </p>
+            </div>
+        </main>
+    </div>
+
+    <div class="sidebar_wrapper">
+        <aside class="sidebar_bottom center">
+            <h2>
+                Maintenance
+            </h2>
+            <p>
+                Basic maintenance item is regular lubrication of the chain and pivot points for derailleurs and brakes.
+            </p>
+        </aside>
+    </div>
+
+    <footer class="footer">
+
+        <div class="block">
+            <h2>
+                Contact Us
+            </h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.
+            </p>
+            <p>
+                contact@acmewebsolutions.test
+            </p>                       
+        </div>
+
+        <div class="block">
+            <h2>
+                About Our Company
+            </h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?
+            </p>
+        </div>
+
+
+        <div class="footer_footer">
+            <div>
+                Acme Web Solutions
+            </div>
+            <div>
+                Project By <a href="https://traversymedia.com/">Traversy Media</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
