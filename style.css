@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.center{
+    width: 800px;
+    margin: 0 auto;
+}
 /* header ----------------------------------------------------------- */
 
 .header_wrapper {
@@ -14,8 +18,6 @@
 .header {
     color: rgb(241, 231, 215);
     padding-top: 150px;
-    width: 800px;
-    margin: 0 auto;    /* нужно сделать класс по центру с шириной*/
 }
 
 .header h1, .header p {
@@ -52,14 +54,14 @@
 /* top sidebar ------------------------------------------- */
 
 
-.sidebar_wrapper {
+.section_wrapper {
     height: 200px;
     width: 100%;
     background-color: rgb(230, 230, 220);
 }
 
 
-.sidebar_top .block{
+.section_1 .block{
     display: inline-block;
     width: 49%;
     height: 75px;
@@ -74,51 +76,41 @@
 .main_wrapper {
     height: 350px;
     background-color: #242424;
-    width: 100%;
 }
 
-.main {
-    width: 800px;
-    margin: 0 auto;    /* нужно сделать класс по центру с шириной*/
-    background-color: rgb(173, 171, 171);
-    padding-top: 30px;
-}
-
-
-.main img{
-    width: 244px;
+.main .block img{
+    display: block;
+	width: 100%;
 }
 
 .main h3{
-    padding: 25px 0px;
+    padding: 15px 0px;
 }
 
-.main .block{
-    display: inline-block;
+.main .block {
+	display: inline-block;
     box-sizing: border-box;
-    height: inherit;
     width: 33%;
     padding-right: 20px;
     text-align: center;
-    padding-bottom: 40px;    /* непонятно как сделать без подсчета*/
+    padding-bottom: 30px; 
+	padding-top: 30px;
 }
 
-.main .block:nth-child(3){
-    padding-right: 0px; /* все равно есть полоса по правой стороне*/
+.main .block h3, .main .block p{
+	background-color: white;
+	padding-bottom: 30px;
 }
 
-/* bottom sidebar --------------------------------------- */
 
 
-/* top bottom sidebars similars*/
+/* sections similars*/
 
-.sidebar_bottom h2, .sidebar_top h2{
+.section_2 h2, .section_1 h2{
     padding-bottom: 20px;
 }
 
-.sidebar_top, .sidebar_bottom {
-    width: 800px;
-    margin: 0 auto;    /* нужно сделать класс по центру с шириной*/
+.section_1, .section_2 {
     color:#585858;
     padding-top: 50px;
     text-align: center;
@@ -129,7 +121,7 @@
 .footer .block {
     display: inline-block;
     box-sizing: border-box;
-    width: 49%;
+    width: 50%;
     height: 175px;
     text-align: center;
     padding-top: 20px;
@@ -148,18 +140,23 @@
     background-color: #585858;
 }
 
-/* footer footer ------------------------------- */
+/* section_bottom ------------------------------- */
 
-.footer_footer {
+.section_bottom .block {
+    display: inline-block;
+    width: 50%;
+	box-sizing: border-box;
     height: 100px;
-    width: 100%;
-    text-align: center;
     background-color: black;
+    text-align: center;
+    padding-top:35px;
     color: white;
-    padding-top: 35px;
+    font-size: 20px;
 }
 
-.footer_footer a{
+
+
+.section_bottom a{
     text-decoration: none;
     color: rgb(62, 62, 243);
 }
